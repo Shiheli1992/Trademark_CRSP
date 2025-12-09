@@ -10,7 +10,7 @@ If you use this dataset for your research, please acknowledge Po-Hsuan Hsu and S
 If you have any question in this dataset, please contact Po. We will gather all issues and fix them in the next version.
 
 ## Variable list
-1. Lpermno: you know what it is
+1. lpermno: you know what it is
 2. serial_no: unique serial number for each trademark 
 3. filing_dt: the filing date of a trademark
 4. registration_dt: the registration date of a trademark

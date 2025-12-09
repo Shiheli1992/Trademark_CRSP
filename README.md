@@ -1,4 +1,4 @@
-# Trademark_data
+# About the dataset
 This dataset is the very preliminary version of the trademark-CRSP matching done by Po-Hsuan Hsu (National Tsing Hua U.: pohsuanhsu@mx.nthu.edu.tw) and Shihe Li (Adelaide University: shihe.li@adelaide.edu.au)
 
 We hope that you will be able to get the most out of this dataset. All different dimensions and associated indicators based on USTPO trademark datasets can be used to capture firms’ product development (new trademarks for new product lines), product lines (existing trademarks of different classes), marketing strategies (full spectrum or only niche market), varieties (different brands of the same product), commercialization of inventions, etc. 
@@ -10,7 +10,6 @@ If you use this dataset for your research, please acknowledge Po-Hsuan Hsu and S
 If you have any question in this dataset, please contact Po. We will gather all issues and fix them in the next version.
 
 ## Variable list
-
 1. Lpermno: you know what it is
 2. serial_no: unique serial number for each trademark 
 3. filing_dt: the filing date of a trademark
@@ -22,6 +21,7 @@ If you have any question in this dataset, please contact Po. We will gather all 
 
 You can merge this dataset with USPTO trademark data via this link: https://data.uspto.gov/bulkdata (I recommend “Trademark Assignment Data for Academia and Researchers” and “Trademark Case File Data for Academia and Researchers”) 
 
+## Further reading 
 For more details of USPTO trademarks (such as classification, references, applications, publications, etc.), you are referred to these two papers:
 1. Graham, S. J., Hancock, G., Marco, A. C., & Myers, A. F. (2013). The USPTO trademark case files dataset: Descriptions, lessons, and insights. Journal of Economics & Management Strategy, 22(4), 669-705.
 2. Graham, S. J., Marco, A. C., & Myers, A. F. (2018). Monetizing marks: Insights from the USPTO trademark assignment dataset. Journal of Economics & Management Strategy, 27(3), 403-432.

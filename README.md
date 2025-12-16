@@ -19,7 +19,7 @@ If you have any question in this dataset, please contact Po. We will gather all 
 7. end_date the ending date of this mark (for those of continued use as of 2024 end, we set the ending date to be 2999-12-31)
 8. ma_buying: whether there is any M&A involved in this mark (the ownership has been tracked in the owner_start_date and owner_end_date)
 
-You can merge this dataset with USPTO trademark data via this link: https://data.uspto.gov/bulkdata (I recommend “Trademark Assignment Data for Academia and Researchers” and “Trademark Case File Data for Academia and Researchers”) 
+You can merge this dataset with USPTO trademark data via this link: https://data.uspto.gov/bulkdata (We recommend “Trademark Assignment Data for Academia and Researchers” and “Trademark Case File Data for Academia and Researchers”) 
 
 ## Further reading 
 For more details of USPTO trademarks (such as classification, references, applications, publications, etc.), you are referred to these two papers:

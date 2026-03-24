@@ -6,7 +6,7 @@ We hope that you will be able to get the most out of this dataset. All different
 _If you use this dataset for your research, please acknowledge **Po-Hsuan Hsu** and **Shihe Li** for sharing the dataset, which is based on and extends Po’s earlier work in trademarks_:
 1. Hsu, P. H., Li, D., Li, Q., Teoh, S. H., & Tseng, K. 2022. Valuation of new trademarks. _Management Science_, 68(1), 257-279.
 2. Hsu, P. H., Li, K., Liu, X., & Wu, H. (2022). Consolidating product lines via mergers and acquisitions: Evidence from the USPTO trademark data. _Journal of Financial and Quantitative Analysis_, 57(8), 2968-2992.
-3. Hsu, P. H., Li, S. 2026. Don’t Dress Like Me: The Value Implications of Trade Dress Protection, _unpublished_. 
+3. Hsu, P. H., Li, S. 2026. Don’t Dress Like Me: The Value Implications of Trade Dress Protection, _working paper_. 
 
 If you have any question in this dataset, please contact Po. We will gather all issues and fix them in the next version.
 

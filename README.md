@@ -16,14 +16,9 @@ If you use this dataset in your research, please acknowledge **Po-Hsuan Hsu** an
 2. Hsu, P. H., Li, K., Liu, X., & Wu, H. (2022). Consolidating product lines via mergers and acquisitions: Evidence from the USPTO trademark data. *Journal of Financial and Quantitative Analysis*, 57(8), 2968–2992.
 3. Hsu, P. H., & Li, S. (2026). Don't dress like me: The value implications of trade dress protection. *Working paper*.
 
-## Coverage and known limitations
+## Coverage 
 
 The dataset is built from the most recent releases of the USPTO **Trademark Assignment** and **Trademark Case File** datasets, both of which currently end in early 2024. The USPTO has not issued an update to either file since then, so trademark activity after that point is not observed.
-
-Two implications for users:
-
-- **Right-censoring.** Ownership spells and mark statuses are only observed up to the end of the source data. Marks still in force at that point are coded with an end date of `2999-12-31` rather than a true termination date.
-- **Preliminary status.** This version has not been fully validated. Please report any issues you encounter to Po-Hsuan Hsu; we will collect them and address them in the next release.
 
 ## Variable list
 

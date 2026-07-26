@@ -18,7 +18,7 @@ If you use this dataset in your research, please acknowledge **Po-Hsuan Hsu** an
 
 ## Coverage 
 
-The dataset is built from the most recent releases of the USPTO **Trademark Assignment** and **Trademark Case File** datasets, both of which currently end in early 2024. The USPTO has not issued an update to either file since then, so trademark activity after that point is not observed.
+The dataset is built from the most recent releases of the USPTO Trademark Assignment and Trademark Case File datasets, both of which currently end in **early 2024**. The USPTO has not issued an update to either file since then, so trademark activity after that point is not observed.
 
 ## Variable list
 

@@ -50,13 +50,6 @@ The dataset is built from the most recent releases of the USPTO Trademark Assign
 
 The dataset can be merged back to the underlying USPTO files, available at <https://data.uspto.gov/bulkdata>. We recommend the two academic releases: *Trademark Assignment Data for Academia and Researchers* and *Trademark Case File Data for Academia and Researchers*.
 
-## Version history
-
-| Date | File | Rows | Note |
-| --- | --- | --- | --- |
-| 27 Oct 2026 | `trademark_owner_after_M&A_27102026.csv` | 1,534,057 | Rebuilt matching chain; duplicates removed; post-M&A overlaps partitioned. |
-| 13 Mar 2026 | `trademark_owner_after_M&A_13032026.csv` | 1,404,605 | Superseded. |
-
 ## Further reading
 
 For details on the structure of the USPTO trademark data — classification, references, applications, publications, and so on — see:

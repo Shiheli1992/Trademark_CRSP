@@ -8,6 +8,21 @@ The dataset links USPTO trademark records to publicly listed U.S. firms, with ow
 
 We hope you find it useful, and we welcome feedback.
 
+## Current version (27 October 2026)
+
+File: `Trademark-CRSP_alpha.zip` → `trademark_owner_after_M&A_27102026.csv`
+
+| | |
+| --- | --- |
+| Ownership periods (rows) | 1,534,057 |
+| Trademark serials | 1,278,424 |
+| Public firms (`lpermno`) | 15,987 |
+| Periods created by a recorded transfer (`ma_buying = TRUE`) | 218,528 |
+| Periods still open at the end of coverage (`owner_end_date = 2999-12-31`) | 158,023 |
+| Filing dates | 1884-06-16 to 2024-03-12 |
+
+Each row is one (firm, trademark) ownership period. A trademark that changes hands between public firms appears once per owner; 206,784 serials have more than one row.
+
 ## Citation and acknowledgment
 
 If you use this dataset in your research, please acknowledge **Po-Hsuan Hsu** and **Shihe Li** for sharing it. The dataset builds on and extends Po-Hsuan Hsu's earlier work on trademarks:
@@ -31,9 +46,16 @@ The dataset is built from the most recent releases of the USPTO Trademark Assign
 | `owner_start_date` | Date on which the mark became owned by this public firm. |
 | `owner_end_date` | Date on which the firm's ownership of the mark ended. Set to `2999-12-31` for marks still held by the firm at the end of the coverage period. |
 | `end_date` | Date on which the mark itself ceased to be in force. Set to `2999-12-31` for marks still live at the end of the coverage period. |
-| `ma_buying` | Indicator for whether the ownership change involved an M&A transaction. Ownership timing is captured by `owner_start_date` and `owner_end_date`. |
+| `ma_buying` | `TRUE` if this ownership period begins with a recorded transfer of the mark to the firm (a USPTO assignment record or an SDC merger or acquisition); `FALSE` if the period comes from the USPTO owner record itself (the firm filed the mark or is listed as its owner). Ownership timing is captured by `owner_start_date` and `owner_end_date`. |
 
 The dataset can be merged back to the underlying USPTO files, available at <https://data.uspto.gov/bulkdata>. We recommend the two academic releases: *Trademark Assignment Data for Academia and Researchers* and *Trademark Case File Data for Academia and Researchers*.
+
+## Version history
+
+| Date | File | Rows | Note |
+| --- | --- | --- | --- |
+| 27 Oct 2026 | `trademark_owner_after_M&A_27102026.csv` | 1,534,057 | Rebuilt matching chain; duplicates removed; post-M&A overlaps partitioned. |
+| 13 Mar 2026 | `trademark_owner_after_M&A_13032026.csv` | 1,404,605 | Superseded. |
 
 ## Further reading
 
